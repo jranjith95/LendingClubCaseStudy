@@ -19,18 +19,20 @@
 <!-- You don't have to answer all the questions - just the ones relevant to your project. -->
 
 ## Conclusions
-- Conclusion 1 from the analysis
-- Conclusion 2 from the analysis
-- Conclusion 3 from the analysis
-- Conclusion 4 from the analysis
-
-<!-- You don't have to answer all the questions - just the ones relevant to your project. -->
+- **Univariate Analysis Summary** : Grade,Term,Purpose,Annual_Income,Interest_Rates,Debt-Income Ratio 
+and Revolving Line Utilization Ratio are major variable which causes default in absolute numbers
+- **Bivariate  Analysis Summary** : Annual_Income,Debt-Income Ratio and Revolving Line Utilization Ratio
+are major variables which could result in loan default in absolute and relative terms
+- **Correlation Analysis Summary** : loan Amount shows a strong correlation with Funded Amount, Interest Rate, and Funded Amount Investers.
+- Loan term is strongly correlated with the interest rate.
+- loan paid and employment length exhibits weak correlations with most variables.
 
 
 ## Technologies Used
-- library - version 1.0
-- library - version 2.0
-- library - version 3.0
+- pandas 2.1.4
+- numpy 1.26.4
+- seaborn 0.12.2
+- matplotlib 3.8.0
 
 <!-- As the libraries versions keep on changing, it is recommended to mention the version of library used in this project -->
 
