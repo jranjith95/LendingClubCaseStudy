@@ -1,54 +1,39 @@
-# Project Name
-> Outline a brief description of your project.
+                                   Lending Club Case Study
+Lending Club is a consumer finance marketplace that connects borrowers seeking personal loans with investors looking to lend money for a return. It specializes in providing various types of loans to customers. When the company receives a loan application, it must decide whether to approve the loan based on the applicant's profile.
 
 
-## Table of Contents
-* [General Info](#general-information)
-* [Technologies Used](#technologies-used)
-* [Conclusions](#conclusions)
-* [Acknowledgements](#acknowledgements)
+Table of Contents
 
-<!-- You can include any other section that is pertinent to your problem -->
+* General Info
 
-## General Information
-- Provide general information about your project here.
-- What is the background of your project?
-- What is the business probem that your project is trying to solve?
-- What is the dataset that is being used?
+The goal is to identify risky loan applicants so that such loans can be reduced, thereby cutting down
+the amount of credit loss. 
+The aim of this case study is to use Exploratory Data Analysis (EDA) on thegiven dataset to identify 
+these applicants.By identifying risky loan applicants, the company can minimize credit loss.
 
-<!-- You don't have to answer all the questions - just the ones relevant to your project. -->
+The objective is to understand the driving factors (or driver variables) behind loan default, i.e., the
+variables that are strong indicators of default. The company can utilize this knowledge for better
+portfolio and risk assessment.
+
+* Technologies Used
+* pandas 2.1.4
+* numpy 1.26.4
+* seaborn 0.12.2
+* matplotlib 3.8.0
 
-## Conclusions
-- **Univariate Analysis Summary** : Grade,Term,Purpose,Annual_Income,Interest_Rates,Debt-Income Ratio 
-and Revolving Line Utilization Ratio are major variable which causes default in absolute numbers
-- **Bivariate  Analysis Summary** : Annual_Income,Debt-Income Ratio and Revolving Line Utilization Ratio
-are major variables which could result in loan default in absolute and relative terms
-- **Correlation Analysis Summary** : loan Amount shows a strong correlation with Funded Amount, Interest Rate, and Funded Amount Investers.
-- Loan term is strongly correlated with the interest rate.
-- loan paid and employment length exhibits weak correlations with most variables.
+* Conclusions
 
+* Univariate Analysis Summary : Grade,Term,Purpose,Annual_Income,Interest_Rates,Debt-Income Ratio and Revolving Line Utilization Ratio are major variable which causes default in absolute numbers
 
-## Technologies Used
-- pandas 2.1.4
-- numpy 1.26.4
-- seaborn 0.12.2
-- matplotlib 3.8.0
+* Bivariate Analysis Summary : Annual_Income,Debt-Income Ratio and Revolving Line Utilization Ratio are major variables which could result in loan default in absolute and relative terms
 
-<!-- As the libraries versions keep on changing, it is recommended to mention the version of library used in this project -->
-
-## Acknowledgements
-Give credit here.
-- This project was inspired by...
-- References if any...
-- This project was based on [this tutorial](https://www.example.com).
+* Correlation Analysis Summary : loan Amount shows a strong correlation with Funded Amount, Interest Rate, and Funded Amount Investers.
 
 
-## Contact
-Created by [@githubusername] - feel free to contact me!
+* Loan term is strongly correlated with the interest rate.
+* loan paid and employment length exhibits weak correlations with most variables.
 
+*Acknowledgements
 
-<!-- Optional -->
-<!-- ## License -->
-<!-- This project is open source and available under the [... License](). -->
-
-<!-- You don't have to include all sections - just the one's relevant to your project -->
+Give credit here.This project was created under AI ML course from IIIT Bangalore.
+ContactCreated by [@sakshilocal]@jranjith95
